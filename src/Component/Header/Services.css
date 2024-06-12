@@ -1,0 +1,78 @@
+/* Services.css */
+
+.services {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #111212;
+    color: white;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.service-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-item h2 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item {
+        width: 100%;
+    }
+}

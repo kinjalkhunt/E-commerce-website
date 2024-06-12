@@ -1,0 +1,48 @@
+/* src/Component/Portfolio.css */
+.portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #111010;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #555;
+}

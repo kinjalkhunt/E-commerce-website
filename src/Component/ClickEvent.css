@@ -1,0 +1,33 @@
+/* .animated-element {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    animation: exampleAnimation 5s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  @keyframes exampleAnimation {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(2);
+    }
+  }
+   */
+   .animated-button {
+    animation: exampleAnimation 2s infinite; /* Animation repeats infinitely for demonstration */
+  }
+  
+  @keyframes exampleAnimation {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+    }
+  }
+  
