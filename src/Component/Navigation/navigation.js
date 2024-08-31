@@ -10,7 +10,7 @@ import Services from '../Header/Services';
 import Portfolio from '../Header/Portfolio';
 import Blog from '../Header/Blog';
 import Company from '../Header/Company';
-import YourComponent from '../YourComponent';
+import YourComponent from '../Apicall';
 import DetailComponent from '../DetailComponent';
 import ErrorPage from '../Header/Errorpage';
 import SomeComponent from '../Header/Somecomponent';

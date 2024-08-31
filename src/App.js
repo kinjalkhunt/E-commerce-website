@@ -5,18 +5,24 @@ import './App.css';
 import Login from './Component/Auth/Login';
 import Navigation from './Component/Navigation/navigation';
 import DetailComponent from './Component/DetailComponent';
+import Apicall from './Component/Apicall';
+import DownloadButton from './Component/DownloadButton';
+
+
 
 // import Navbar from './Component/Header/Navbar';
 // import Login from './Component/Auth/Login';
 // import Signup from './Component/Auth/Signup';
 // import Auth from './Component/Auth/Auth';
-// import YourComponent from './Component/ApiUseEffect';
+
 
 function App() {
   return(
     <>
     {/* <DetailComponent/> */}
-      <Navigation/>
+      {/* <Navigation/> */}
+         {/* <Apicall/> */}
+         <DownloadButton/>
     </>
   
   )
